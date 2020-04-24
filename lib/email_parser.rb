@@ -17,3 +17,5 @@ def parse
 end
 
 end
+
+EmailAddressParser.new
