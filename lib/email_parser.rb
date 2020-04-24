@@ -16,7 +16,7 @@ class EmailParser
   end
  
   def parse 
-    self.name.split(" ").collect{|w| w.capitalize}.join(" ")
+    self.name.split(,).collect{|w| w.capitalize}.join(" ")
   end
  
   def self.normalize_names
