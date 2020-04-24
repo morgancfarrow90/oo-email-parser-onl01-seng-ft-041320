@@ -5,6 +5,7 @@
 class EmailParser
   attr_accessor :email
   @@all = []
+  
   def self.all
     @@all
   end
@@ -14,7 +15,7 @@ class EmailParser
     @@all << self
   end
  
-  def normalize_name
+  def parse 
     self.name.split(" ").collect{|w| w.capitalize}.join(" ")
   end
  
