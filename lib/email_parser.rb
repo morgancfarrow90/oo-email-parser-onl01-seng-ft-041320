@@ -15,8 +15,4 @@ def parse
   returnArr = splitEmail.flatten.uniq
   returnArr
 end
-
-def EmailAddressParser
-  self.parse
-end
 end
